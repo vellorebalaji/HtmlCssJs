@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteLabel Blog Website - Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .home-link {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .home-link a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .home-link a:hover {
+            text-decoration: underline;
+        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        h3 { color: #7f8c8d; }
+        pre { background: #f8f9fa; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        code { background: #f8f9fa; padding: 2px 5px; border-radius: 3px; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 5px; }
+        strong { color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="home-link">
+        <a href="index.html">← Back to Homepage</a>
+    </div>
+    <h1>WhiteLabel Blog Website</h1>
+    <p>A responsive blog website built with HTML, CSS, and JavaScript without any external frameworks or libraries.</p>
+
+    <h2>Project Structure</h2>
+    <pre><code>Project1/
+├── index.html          # Home page
+├── blog-list.html      # Blog list page
+├── blog-detail.html    # Blog detail page
+├── styles.css          # Main stylesheet
+├── script.js           # JavaScript functionality
+└── README.md           # Project documentation</code></pre>
+
+    <h2>Features</h2>
+
+    <h3>Home Page (index.html)</h3>
+    <ul>
+        <li><strong>Header</strong>: Fixed navigation with WhiteLabel logo (clickable, links to home)</li>
+        <li><strong>Navigation Menu</strong>: Home, Blog List, Blog Detail, Contact Us</li>
+        <li><strong>Responsive Hamburger Menu</strong>: For mobile and tablet devices</li>
+        <li><strong>Hero Section</strong>:
+            <ul>
+                <li>Responsive background images (different for desktop, tablet, mobile)</li>
+                <li>Overlay text with heading and description</li>
+                <li>CTA button that redirects to blog detail page</li>
+            </ul>
+        </li>
+        <li><strong>Blog List Section</strong>: Latest blog posts displayed as cards</li>
+        <li><strong>Footer</strong>: Copyright text and navigation links</li>
+    </ul>
+
+    <h3>Blog List Page (blog-list.html)</h3>
+    <ul>
+        <li>Same header and footer as home page</li>
+        <li>Grid layout displaying 6 blog posts as cards</li>
+        <li>Each card includes image, title, description, and "Read More" link</li>
+        <li>Fully responsive design</li>
+    </ul>
+
+    <h3>Blog Detail Page (blog-detail.html)</h3>
+    <ul>
+        <li>Same header and footer as home page</li>
+        <li>Blog header with title, author, date, and category</li>
+        <li>Featured image (large, responsive)</li>
+        <li>Full blog content with headings, paragraphs, and lists</li>
+        <li>Clean, readable typography</li>
+    </ul>
+
+    <h2>Responsive Design</h2>
+
+    <h3>Breakpoints</h3>
+    <ul>
+        <li><strong>Desktop</strong>: 1025px and above</li>
+        <li><strong>Tablet</strong>: 769px - 1024px</li>
+        <li><strong>Mobile</strong>: 768px and below</li>
+    </ul>
+
+    <h3>Features</h3>
+    <ul>
+        <li>Mobile-first approach</li>
+        <li>Hamburger menu for smaller screens</li>
+        <li>Responsive images and typography</li>
+        <li>Grid layouts that adapt to screen size</li>
+        <li>Touch-friendly navigation</li>
+    </ul>
+
+    <h2>Navigation Structure</h2>
+
+    <h3>Header Navigation</h3>
+    <ul>
+        <li><strong>WhiteLabel Logo</strong>: Links to index.html</li>
+        <li><strong>Home</strong>: Links to index.html</li>
+        <li><strong>Blog List</strong>: Links to blog-list.html</li>
+        <li><strong>Blog Detail</strong>: Links to blog-detail.html</li>
+        <li><strong>Contact Us</strong>: Placeholder link</li>
+    </ul>
+
+    <h3>Footer Navigation</h3>
+    <ul>
+        <li><strong>Home</strong>: Links to index.html</li>
+        <li><strong>Blog List</strong>: Links to blog-list.html</li>
+        <li><strong>Blog Detail</strong>: Links to blog-detail.html</li>
+        <li><strong>Contact</strong>: Placeholder link</li>
+    </ul>
+
+    <h2>Technologies Used</h2>
+    <ul>
+        <li><strong>HTML5</strong>: Semantic markup</li>
+        <li><strong>CSS3</strong>:
+            <ul>
+                <li>Flexbox and Grid layouts</li>
+                <li>Media queries for responsiveness</li>
+                <li>CSS transitions and hover effects</li>
+            </ul>
+        </li>
+        <li><strong>Vanilla JavaScript</strong>:
+            <ul>
+                <li>Hamburger menu functionality</li>
+                <li>Click event handling</li>
+                <li>DOM manipulation</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Key CSS Features</h2>
+    <ul>
+        <li>Custom responsive hero images for different devices</li>
+        <li>Smooth transitions and hover effects</li>
+        <li>Mobile-optimized hamburger menu animation</li>
+        <li>Card-based layout system</li>
+        <li>Typography scaling for different screen sizes</li>
+    </ul>
+
+    <h2>JavaScript Functionality</h2>
+    <ul>
+        <li>Hamburger menu toggle</li>
+        <li>Menu close on link click</li>
+        <li>Menu close on outside click</li>
+        <li>Hero CTA button navigation</li>
+    </ul>
+
+    <h2>Browser Compatibility</h2>
+    <ul>
+        <li>Modern browsers (Chrome, Firefox, Safari, Edge)</li>
+        <li>Mobile browsers (iOS Safari, Chrome Mobile)</li>
+        <li>Responsive design works on all screen sizes</li>
+    </ul>
+
+    <h2>Getting Started</h2>
+    <ol>
+        <li>Open <code>index.html</code> in a web browser</li>
+        <li>Navigate through the site using the header menu</li>
+        <li>Test responsive design by resizing the browser window</li>
+        <li>Use browser developer tools to test mobile view</li>
+    </ol>
+
+    <h2>File Descriptions</h2>
+    <ul>
+        <li><strong>index.html</strong>: Main landing page with hero section and blog preview</li>
+        <li><strong>blog-list.html</strong>: Complete list of all blog posts</li>
+        <li><strong>blog-detail.html</strong>: Individual blog post page with full content</li>
+        <li><strong>styles.css</strong>: All styling including responsive design</li>
+        <li><strong>script.js</strong>: Interactive functionality for navigation</li>
+        <li><strong>README.md</strong>: Project documentation</li>
+    </ul>
+
+    <h2>Design Principles</h2>
+    <ul>
+        <li>Clean, modern design</li>
+        <li>Mobile-first responsive approach</li>
+        <li>Consistent navigation across all pages</li>
+        <li>Accessible color contrast</li>
+        <li>Fast loading with optimized images</li>
+        <li>No external dependencies</li>
+    </ul>
+</body>
+</html>
